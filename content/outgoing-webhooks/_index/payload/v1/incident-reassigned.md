@@ -1,7 +1,6 @@
 ---
 title: Incident Reassigned
 pcx-content-type: tutorial
-layout: single
 weight: 2
 meta:
   title: Incident Reassigned v1 webhook payloads
@@ -9,7 +8,7 @@ meta:
 
 # Incident Reassigned (v1)
 
-For v2, [click here](../../v2/incident-reassigned/)
+For v2, [click here](../../../v2/incident-reassigned/)
 
 ## Payload
 

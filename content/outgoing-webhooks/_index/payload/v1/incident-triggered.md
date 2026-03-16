@@ -1,22 +1,21 @@
 ---
-title: Incident Resolved
+title: Incident Triggered
 pcx-content-type: tutorial
-layout: single
-weight: 4
+weight: 1
 meta:
-  title: Incident Resolved v1 webhook payloads
+  title: Incident Triggered v1 webhook payloads
 ---
 
-# Incident Resolved (v1)
+# Incident Triggered (v1)
 
-For v2, [click here](../../v2/incident-resolved/)
+For v2, [click here](../../../v2/incident-triggered/)
 
 ## Payload
 
 ```json
 {
   "id": "61c075f78589dca75fdb2f44",
-  "event_type": "incident_resolved",
+  "event_type": "incident_triggered",
   "organization": {
     "id": "609b8e9978d2770008db8638",
     "name": "My Org"
@@ -33,12 +32,12 @@ For v2, [click here](../../v2/incident-resolved/)
   },
   "message": "CPU Throttling: Over 90% of cpu is being utilized",
   "description": "Over 90% of cpu is being utilized from the past 2 hours which is a drastic increase from before. Please checkout the metrics.",
-  "status": "resolved",
+  "status": "triggered",
   "created_at": "2021-12-20T12:24:23.11Z",
   "assigned_to": {
-    "id": "603360ce3aeae4de2b6edec1",
-    "name": "Micheal Scott",
-    "type": "user"
+    "id": "609b8e9e78d2770008db8639",
+    "name": "SRE and Devops Escalation Policy",
+    "type": "escalationpolicy"
   },
   "tags": {
     "severity": {
@@ -52,38 +51,9 @@ For v2, [click here](../../v2/incident-resolved/)
       "assigned_to": "escalationpolicy",
       "name": "SRE and Devops Escalation Policy",
       "time": "2021-12-20T12:24:23.077Z"
-    },
-    {
-      "action": "reassigned",
-      "assigned_to": "user",
-      "name": "Micheal Scott",
-      "time": "2021-12-21T04:59:18.173Z"
-    },
-    {
-      "action": "acknowledged",
-      "assigned_to": "user",
-      "name": "Micheal Scott",
-      "time": "2021-12-21T05:05:23.129Z"
-    },
-    {
-      "action": "resolved",
-      "assigned_to": "user",
-      "name": "Micheal Scott",
-      "time": "2021-12-21T05:11:34.219Z"
     }
   ],
-  "analytics": {
-    "tta": {
-      "time": 11475,
-      "user_id": "603360ce3aeae4de2b6edec1",
-      "escalation_policy_id": "609b8e9e78d2770008db8639"
-    },
-    "ttr": {
-      "time": 60431142,
-      "user_id": "603360ce3aeae4de2b6edec1",
-      "escalation_policy_id": "609b8e9e78d2770008db8639"
-    }
-  },
+  "analytics": {},
   "event_count": 1,
   "event_payload": {
     "assignee": {

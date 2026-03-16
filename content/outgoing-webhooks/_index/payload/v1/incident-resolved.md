@@ -1,22 +1,21 @@
 ---
-title: Incident Acknowledged
+title: Incident Resolved
 pcx-content-type: tutorial
-layout: single
-weight: 3
+weight: 4
 meta:
-  title: Incident Acknowledged v1 webhook payloads
+  title: Incident Resolved v1 webhook payloads
 ---
 
-# Incident Acknowledged (v1)
+# Incident Resolved (v1)
 
-For v2, [click here](../../v2/incident-acknowledged/)
+For v2, [click here](../../../v2/incident-resolved/)
 
 ## Payload
 
 ```json
 {
   "id": "61c075f78589dca75fdb2f44",
-  "event_type": "incident_acknowledged",
+  "event_type": "incident_resolved",
   "organization": {
     "id": "609b8e9978d2770008db8638",
     "name": "My Org"
@@ -33,7 +32,7 @@ For v2, [click here](../../v2/incident-acknowledged/)
   },
   "message": "CPU Throttling: Over 90% of cpu is being utilized",
   "description": "Over 90% of cpu is being utilized from the past 2 hours which is a drastic increase from before. Please checkout the metrics.",
-  "status": "acknowledged",
+  "status": "resolved",
   "created_at": "2021-12-20T12:24:23.11Z",
   "assigned_to": {
     "id": "603360ce3aeae4de2b6edec1",
@@ -64,11 +63,22 @@ For v2, [click here](../../v2/incident-acknowledged/)
       "assigned_to": "user",
       "name": "Micheal Scott",
       "time": "2021-12-21T05:05:23.129Z"
+    },
+    {
+      "action": "resolved",
+      "assigned_to": "user",
+      "name": "Micheal Scott",
+      "time": "2021-12-21T05:11:34.219Z"
     }
   ],
   "analytics": {
     "tta": {
       "time": 11475,
+      "user_id": "603360ce3aeae4de2b6edec1",
+      "escalation_policy_id": "609b8e9e78d2770008db8639"
+    },
+    "ttr": {
+      "time": 60431142,
       "user_id": "603360ce3aeae4de2b6edec1",
       "escalation_policy_id": "609b8e9e78d2770008db8639"
     }
