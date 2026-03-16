@@ -1,14 +1,14 @@
 ---
-title: Incident Triggered
+title: Incident Resolved
 pcx-content-type: tutorial
-weight: 1
+weight: 4
 meta:
-  title: Incident Triggered v2 webhook payloads
+  title: Incident Resolved v2 webhook payloads
 ---
 
-# Incident Triggered (v2)
+# Incident Resolved (v2)
 
-For v1, [click here](../../../v1/incident-triggered/)
+For v1, [click here](../../../../../outgoing-webhooks/v1/incident-resolved/)
 
 ## Payload
 
@@ -16,10 +16,10 @@ For v1, [click here](../../../v1/incident-triggered/)
 {
   "version": "v2",
   "event": {
-    "id": "633e670afbb04a577527b4b8",
-    "type": "incident.triggered",
+    "id": "633e699ffbb04a577527b4ba",
+    "type": "incident.resolved",
     "resource": "incident",
-    "timestamp": "2022-10-06T05:26:34.945695898Z"
+    "timestamp": "2022-10-06T05:37:35.998872552Z"
   },
   "data": {
     "resource_data": {
@@ -37,13 +37,12 @@ For v1, [click here](../../../v1/incident-triggered/)
         "name": "Service Test2",
         "slug": "service-test2"
       },
-      "request_id": "e287c6c3-fff9-40b7-9561-72dc7bf4cf28",
-      "status": "triggered",
+      "status": "resolved",
       "created_at": "2022-10-06T05:26:34.37Z",
       "assigned_to": {
-        "id": "629e23f5eb4041a20a43b11c",
-        "name": "test",
-        "type": "escalationpolicy",
+        "id": "61963608090a650008fff152",
+        "name": "Yash Jain",
+        "type": "user",
         "assigned_at": "0001-01-01T00:00:00Z"
       },
       "tags": null,
@@ -69,6 +68,18 @@ For v1, [click here](../../../v1/incident-triggered/)
           "assigned_to": "escalationpolicy",
           "name": "test",
           "time": "2022-10-06T05:26:34.256Z"
+        },
+        {
+          "action": "acknowledged",
+          "assigned_to": "user",
+          "name": "Yash Jain",
+          "time": "2022-10-06T05:37:01.339Z"
+        },
+        {
+          "action": "resolved",
+          "assigned_to": "user",
+          "name": "Yash Jain",
+          "time": "2022-10-06T05:37:35.945Z"
         }
       ],
       "event_count": 1,
@@ -80,7 +91,7 @@ For v1, [click here](../../../v1/incident-triggered/)
       "manually_created_by": {
         "id": "61963608090a650008fff152",
         "name": "Yash Jain",
-        "email": "yash@squadcast.com"
+        "email": "yash@myorg.com"
       }
     },
     "resource_type": "incident",

@@ -1,14 +1,14 @@
 ---
-title: Incident Resolved
+title: Incident Acknowledged
 pcx-content-type: tutorial
-weight: 4
+weight: 3
 meta:
-  title: Incident Resolved v2 webhook payloads
+  title: Incident Acknowledged v2 webhook payloads
 ---
 
-# Incident Resolved (v2)
+# Incident Acknowledged (v2)
 
-For v1, [click here](../../../v1/incident-resolved/)
+For v1, [click here](../../../../../outgoing-webhooks/v1/incident-acknowledged/)
 
 ## Payload
 
@@ -16,10 +16,10 @@ For v1, [click here](../../../v1/incident-resolved/)
 {
   "version": "v2",
   "event": {
-    "id": "633e699ffbb04a577527b4ba",
-    "type": "incident.resolved",
+    "id": "633e697dfbb04a577527b4b9",
+    "type": "incident.acknowledged",
     "resource": "incident",
-    "timestamp": "2022-10-06T05:37:35.998872552Z"
+    "timestamp": "2022-10-06T05:37:01.388057811Z"
   },
   "data": {
     "resource_data": {
@@ -37,7 +37,7 @@ For v1, [click here](../../../v1/incident-resolved/)
         "name": "Service Test2",
         "slug": "service-test2"
       },
-      "status": "resolved",
+      "status": "acknowledged",
       "created_at": "2022-10-06T05:26:34.37Z",
       "assigned_to": {
         "id": "61963608090a650008fff152",
@@ -74,12 +74,6 @@ For v1, [click here](../../../v1/incident-resolved/)
           "assigned_to": "user",
           "name": "Yash Jain",
           "time": "2022-10-06T05:37:01.339Z"
-        },
-        {
-          "action": "resolved",
-          "assigned_to": "user",
-          "name": "Yash Jain",
-          "time": "2022-10-06T05:37:35.945Z"
         }
       ],
       "event_count": 1,
@@ -91,7 +85,7 @@ For v1, [click here](../../../v1/incident-resolved/)
       "manually_created_by": {
         "id": "61963608090a650008fff152",
         "name": "Yash Jain",
-        "email": "yash@myorg.com"
+        "email": "yash@squadcast.com"
       }
     },
     "resource_type": "incident",

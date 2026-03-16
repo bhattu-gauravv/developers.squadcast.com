@@ -1,7 +1,6 @@
 ---
 title: Outgoing Webhooks
 pcx-content-type: overview
-layout: single
 weight: 0
 meta:
   title: Outgoing webhooks
@@ -19,15 +18,15 @@ Make sure you have the pre-requisite permissions to set up outgoing webhooks.
 
 ## Supported Events
 
-The webhook that you have configured can be triggered for certain events occurring in Squadcast. 
+The webhook that you have configured can be triggered for certain events occurring in Squadcast.
 
 You can choose multiple triggers for a webhook. Information is sent to the provided URLs if any of the triggers match.
 
 In the legacy version v1, only limited events are supported whereas the latest version v2, supports an exhaustive list of events.
 
-For **v1 events**, [refer here](./payload/v1/).
+For **v1 events**, [refer here](../../outgoing-webhooks/payload/v1/).
 
-For **v2 events**, [refer here](./payload/v2/).
+For **v2 events**, [refer here](../../outgoing-webhooks/payload/v2/).
 
 If your use-case requires more Squadcast events to be supported, please reach out to our Support team with details of the same.
 
@@ -41,21 +40,22 @@ Squadcast expects that the server that responds to the webhook will return a 2xx
 
 ## URLs and Headers
 
-We support the addition of multiple URL endpoints, with POST, PUT and PATCH methods. 
+We support the addition of multiple URL endpoints, with POST, PUT and PATCH methods.
 
-Incident payloads will be sent to all the URL endpoints that are added. 
- 
+Incident payloads will be sent to all the URL endpoints that are added.
+
 You can also configure additional headers. These headers will get attached to all the webhook calls that will be made based on this configuration.
 
 ## Filters
+
 You can filter on top of events from the Services and Alert Sources drop-downs, either by having an individual expression or a combination of expressions/expression groups.
 
 ## Logs
+
 Once the webhook call has been made, you can view the logs for it in the Logs tab.
 
 Click on the expand icon on any of the individual logs to view the payload that has been sent across.
 
 ## Additional Settings
+
 Configure the Name, Description and Failure Notification email in the Settings tab. This is particularly helpful when you (or an administrator) would want to be notified for webhook-related failures.
-
-

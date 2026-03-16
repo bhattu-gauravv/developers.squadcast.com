@@ -8,7 +8,7 @@ meta:
 
 # Incident Resolved (v1)
 
-For v2, [click here](../../../v2/incident-resolved/)
+For v2, [click here](../../../../../outgoing-webhooks/v2/incident-resolved/)
 
 ## Payload
 

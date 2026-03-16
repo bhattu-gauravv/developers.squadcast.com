@@ -1,21 +1,21 @@
 ---
-title: Incident Acknowledged
+title: Incident Reassigned
 pcx-content-type: tutorial
-weight: 3
+weight: 2
 meta:
-  title: Incident Acknowledged v1 webhook payloads
+  title: Incident Reassigned v1 webhook payloads
 ---
 
-# Incident Acknowledged (v1)
+# Incident Reassigned (v1)
 
-For v2, [click here](../../../v2/incident-acknowledged/)
+For v2, [click here](../../../../../outgoing-webhooks/v2/incident-reassigned/)
 
 ## Payload
 
 ```json
 {
   "id": "61c075f78589dca75fdb2f44",
-  "event_type": "incident_acknowledged",
+  "event_type": "incident_reassigned",
   "organization": {
     "id": "609b8e9978d2770008db8638",
     "name": "My Org"
@@ -32,7 +32,7 @@ For v2, [click here](../../../v2/incident-acknowledged/)
   },
   "message": "CPU Throttling: Over 90% of cpu is being utilized",
   "description": "Over 90% of cpu is being utilized from the past 2 hours which is a drastic increase from before. Please checkout the metrics.",
-  "status": "acknowledged",
+  "status": "triggered",
   "created_at": "2021-12-20T12:24:23.11Z",
   "assigned_to": {
     "id": "603360ce3aeae4de2b6edec1",
@@ -57,12 +57,6 @@ For v2, [click here](../../../v2/incident-acknowledged/)
       "assigned_to": "user",
       "name": "Micheal Scott",
       "time": "2021-12-21T04:59:18.173Z"
-    },
-    {
-      "action": "acknowledged",
-      "assigned_to": "user",
-      "name": "Micheal Scott",
-      "time": "2021-12-21T05:05:23.129Z"
     }
   ],
   "analytics": {
