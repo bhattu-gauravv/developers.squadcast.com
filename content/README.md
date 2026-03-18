@@ -10,17 +10,17 @@ meta:
 
 There are 3 types of integrations available in Squadcast.
 
-### [Alert Sources](build-integrations/alert-sources/)
+### Alert Sources
 
 We integrate with various monitoring, observability, log management & error tracking tools and we call them as Alert sources.
 
-All these alert sources uses webhooks as the core mechanism to send data to Squadcast and you can refer the [Build Alertsources](build-integrations/alert-sources/) section for more details about building this type of integrations.
+All these alert sources uses webhooks as the core mechanism to send data to Squadcast and you can [contact us](mailto:support@squadcast.com) for more details about building this type of integrations.
 
-### [Webhook connectors](../webhook-connectors/)
+### Webhook connectors
 
 Webhook connectors are proxy scripts which receives data from [Squadcast outgoing webhooks](../outgoing-webhooks/) and transforms the payload to the required format of the 3rd party system which we are integrating with.
 
-For more information about creating webhook connectors, please refer the [Webhook connector documentation](../webhook-connectors/).
+For more information about creating webhook connectors, please refer the [Webhook connector](webhooks/outgoing-webhooks/_index/webhook-connectors/) documentation.
 
 ### Extensions
 

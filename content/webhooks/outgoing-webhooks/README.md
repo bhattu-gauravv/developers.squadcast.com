@@ -24,9 +24,9 @@ You can choose multiple triggers for a webhook. Information is sent to the provi
 
 In the legacy version v1, only limited events are supported whereas the latest version v2, supports an exhaustive list of events.
 
-For **v1 events**, [refer here](../../outgoing-webhooks/payload/v1/).
+For **v1 events**, [refer here](_index/payload/v1/).
 
-For **v2 events**, [refer here](../../outgoing-webhooks/payload/v2/).
+For **v2 events**, [refer here](_index/payload/v2/_index.md).
 
 If your use-case requires more Squadcast events to be supported, please reach out to our Support team with details of the same.
 

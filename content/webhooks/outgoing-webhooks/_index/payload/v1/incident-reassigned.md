@@ -8,7 +8,7 @@ meta:
 
 # Incident Reassigned (v1)
 
-For v2, [click here](../../../../../outgoing-webhooks/v2/incident-reassigned/)
+For v2, [click here](../v2/incident-reassigned.md)
 
 ## Payload
 

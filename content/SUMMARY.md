@@ -66,6 +66,5 @@
 
 * [Squadcast Terraform](terraform/_index.md)
 * [Install Terraform](terraform/installing.md)
-* [tutorial](terraform/tutorial/README.md)
-  * [Tutorial](terraform/tutorial/_index.md)
+* [Tutorial](terraform/tutorial/README.md)
   * [How to use Terraformer with Squadcast?](terraform/tutorial/how-to-use-terraformer.md)

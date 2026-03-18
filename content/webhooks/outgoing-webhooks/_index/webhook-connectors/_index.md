@@ -16,7 +16,7 @@ We have documented most commonly asked & used webhook connector scripts (or simp
 
 \}}
 
-**Note:** Currently, these connectors works only with the [v1 events and payloads](../../../../outgoing-webhooks/payload/v1/), v2 events are not supported yet but you can make it work on your own with minor changes.
+**Note:** Currently, these connectors works only with the v1 events and payloads, v2 events are not supported yet but you can make it work on your own with minor changes.
 
 \{{
 
@@ -24,5 +24,5 @@ We have documented most commonly asked & used webhook connector scripts (or simp
 
 We have both Standalone node js scripts as well as scripts for Cloudflare workers.
 
-* [Nodejs scripts](../../../../outgoing-webhooks/webhook-connectors/nodejs/)
-* [Cloudflare worker scripts](../../../../outgoing-webhooks/webhook-connectors/cloudflare-worker/)
+* [Nodejs scripts](nodejs.md)
+* [Cloudflare worker scripts](cloudflare-worker.md)

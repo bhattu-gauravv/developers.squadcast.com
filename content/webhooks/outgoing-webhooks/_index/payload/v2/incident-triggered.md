@@ -8,7 +8,7 @@ meta:
 
 # Incident Triggered (v2)
 
-For v1, [click here](../../../../../outgoing-webhooks/v1/incident-triggered/)
+For v1, [click here](../v1/incident-triggered.md)
 
 ## Payload
 

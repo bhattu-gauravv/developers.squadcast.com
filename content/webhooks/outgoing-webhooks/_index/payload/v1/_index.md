@@ -8,9 +8,9 @@ meta:
 
 # Outgoing Webhooks v1 payloads
 
-For v2 events and payloads, [click here](../../../../../outgoing-webhooks/payload/v2/).
+For v2 events and payloads, [click here](../v2/_index.md).
 
-* [Incident triggered](../../../../../outgoing-webhooks/payload/v1/incident-triggered/)
-* [Incident Reassigned](../../../../../outgoing-webhooks/payload/v1/incident-reassigned/)
-* [Incident Acknowledged](../../../../../outgoing-webhooks/payload/v1/incident-acknowledged/)
-* [Incident Resolved](../../../../../outgoing-webhooks/payload/v1/incident-resolved/)
+* [Incident triggered](incident-triggered.md)
+* [Incident Reassigned](incident-reassigned.md)
+* [Incident Acknowledged](incident-acknowledged.md)
+* [Incident Resolved](incident-resolved.md)

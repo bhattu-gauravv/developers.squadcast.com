@@ -8,7 +8,7 @@ meta:
 
 # Incident Acknowledged (v1)
 
-For v2, [click here](../../../../../outgoing-webhooks/v2/incident-acknowledged/)
+For v2, [click here](../v2/incident-acknowledged.md)
 
 ## Payload
 
